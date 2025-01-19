@@ -1,0 +1,134 @@
+{
+    "pokemons": [
+        {
+            "identificador": "094",
+            "nombre": "Gengar",
+            "tipos": [
+                "fantasma", "veneno"
+            ],
+            "fase": 3,
+            "peso": "40,5 kg",
+            "altura": "1,5 m",
+            "color": "morado",
+            "generacion": "primera",
+            "estadisticas": {
+                "velocidad": 3,
+                "fuerza": 3,
+                "precisión": 5,
+                "resistencia": 4,
+                "promedio": 3.6,
+                "total": 18
+            },
+            "movimientos": [
+                {
+                    "nombre": "garra umbría",
+                    "descripción": "Garra umbría causa daño y tiene una alta probabilidad de asestar un golpe crítico (12,5%)",
+                    "potencia": "70",
+                    "contacto": true
+                },
+                {
+                    "nombre": "lengüetazo",
+                    "descripción": "lengüetazo causa daño y tiene una probabilidad del 30% de dejar paralizado al objetivo",
+                    "potencia": "30",
+                    "contacto": true
+                },
+                {
+                    "nombre": "psíquico",
+                    "descripción": "Psíquico causa daño y tiene una probabilidad del 33,2% de bajar un nivel el especial del objetivo",
+                    "potencia": "90",
+                    "contacto": false
+                },
+                {
+                    "nombre": "puño sombra",
+                    "descripción": "Puño sombra causa daño y no tiene ningún efecto secundario. Este ataque nunca falla.",
+                    "potencia": "60",
+                    "contacto": true
+                }
+            ],
+            "imagen": "https://n9.cl/gengar",
+            "preevoluciones": [
+                {
+                    "nombre": "gastly",
+                    "identificador": "092",
+                    "fase": 1,
+                    "evolcion": "haunter",
+                    "nivel_evolución": 25
+                },
+                {
+                    "nombre": "haunter",
+                    "identificador": "093",
+                    "fase": 2,
+                    "evolcion": "gengar",
+                    "nivel_evolución": "intercambio"
+                }
+            ],
+            "evoluciones": null,
+            "megaevoluciones": true
+        },
+        {
+            "identificador": "079",
+            "nombre": "Slowpoke",
+            "tipos": [
+                "psíquico", "agua"
+            ],
+            "fase": 3,
+            "peso": "36,0 kg",
+            "altura": "1,2 m",
+            "color": "rosa",
+            "generacion": "primera",
+            "estadisticas": {
+                "velocidad": 1,
+                "fuerza": 2,
+                "precisión": 5,
+                "resistencia": 5,
+                "promedio": 3,
+                "total": 15
+            },
+            "movimientos": [
+                {
+                    "nombre": "confusión",
+                    "descripción": "Confusión causa daño y tiene una probabilidad del 10% de confundir al objetivo.",
+                    "potencia": "50",
+                    "contacto": false
+                },
+                {
+                    "nombre": "pistola agua",
+                    "descripción": "Pistola agua causa daño y no tiene ningún efecto secundario.",
+                    "potencia": "40",
+                    "contacto": false
+                },
+                {
+                    "nombre": "psíquico",
+                    "descripción": "Psíquico causa daño y tiene una probabilidad del 33,2% de bajar un nivel el especial del objetivo",
+                    "potencia": "90",
+                    "contacto": false
+                },
+                {
+                    "nombre": "hidro pulso",
+                    "descripción": "Hidropulso causa daño y tiene una probabilidad del 20% de confundir al objetivo.",
+                    "potencia": "60",
+                    "contacto": false
+                }
+            ],
+            "imagen": "https://n9.cl/slowpoke",
+            "preevoluciones": null,
+            "evoluciones": [
+                {
+                    "nombre": "slowbro",
+                    "identificador": "080",
+                    "fase": 2,
+                    "evolcion": null,
+                    "nivel_evolución": 37
+                },
+                {
+                    "nombre": "slowking",
+                    "identificador": "199",
+                    "fase": 2,
+                    "evolcion": null,
+                    "nivel_evolución": "intercambio, equipado con roca del rey"
+                }
+            ],
+            "megaevoluciones": true
+        }
+    ]
+}

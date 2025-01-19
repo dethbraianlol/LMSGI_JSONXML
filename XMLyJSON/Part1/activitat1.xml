@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+<?xml : declaració xml
+version=”1.0” : especifica la versió xml
+encoding=”UTF-8”: codificació dels caràcters del document
+-->
+
+<!-- Primer nivell de XML -->
+<BotigaOnline>
+      <nom>N9 MarketPlace</nom>
+        <!-- Segon nivell XML per al primer producte -->
+        <producte codi="0000001">
+          <!-- Tercer Nivell -->
+            <nom>Llibreta</nom>
+            <descripcio>Llibreta marca Milan 430 de 80 págines, 90g/m2</descripcio>
+            <preu moneda="EUR">7.99</preu>
+            <categoria>Papereria</categoria>
+            <disponibilitat>En stock</disponibilitat>
+            <cuantitat>122</cuantitat>
+            <imatge>https://n9.cl/libretamilan430</imatge>
+            <valoracio>4</valoracio>
+            <comentaris>10</comentaris>
+            <venedor>Papería María</venedor>
+        </producte>
+    
+        <!-- Informacio del segon producte -->
+        <producte codi="0000002">
+            <!-- Tercer Nivell -->
+            <nom>Pota de mico</nom>
+            <descripcio>Pota de mico disecat per rituals de bona sort, categoria básic.</descripcio>
+            <preu moneda="EUR">699.99</preu>
+            <categoria>Bruixería</categoria>
+            <disponibilitat>Esgotat</disponibilitat>
+            <cuantitat>0</cuantitat>
+            <imatge>https://n9.cl/potademicobasic</imatge>
+            <valoracio>5</valoracio>
+            <comentaris>2</comentaris>
+            <venedor>Mitic Store</venedor>
+        </producte>
+</BotigaOnline>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+<?xml : declaració xml
+version=”1.0” : especifica la versió xml
+encoding=”UTF-8”: codificació dels caràcters del document
+-->
+
+<!-- Primer nivell de XML -->
+
+<basicInfo>
+    <name>Peter</name>
+    <surname>Jones</surname>
+    <age>19</age>
+    <height>1.79</height>
+    <job>Informatic</job>
+    <!-- &lt; == < -->
+    <favoriteSimile>&lt;3</favoriteSimile>
+    <pets>
+        <pet>
+            <race>Black cat</race>
+        </pet>
+        <pet>
+            <race>Chiwawa</race>
+        </pet>
+    </pets>
+    <address>
+        <street>Pau Claris</street>
+        <number>121</number>
+        <cp>08012</cp>
+    </address>
+    <socialMedia>
+        <instagram>
+            <user>pjones22</user>
+            <mail>pjones22@gmail.com</mail> 
+        </instagram> 
+        <twitter>
+            <compte>true</compte>
+        </twitter>
+    </socialMedia> 
+    <friends>
+        <friend>
+            <name>Jhon</name>
+            <surname>Doe</surname>
+            <age>35</age>
+        </friend>
+        <friend>
+            <name>Anna</name>
+            <surname>Smith</surname>
+            <age>null</age>
+        </friend>
+    </friends>
+</basicInfo>
